@@ -1,0 +1,19 @@
+name: sign-language-recognition
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.8  
+  - pip
+  - opencv
+  - pip:
+      - Flask
+      - flask-socketio
+      - flask-cors
+      - numpy
+      - opencv-python
+      - opencv-contrib-python
+      - pandas
+      - tensorflow
+      - scikit-learn
+      - io  
